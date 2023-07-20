@@ -1,0 +1,70 @@
+
+.wrapper {
+    width: 100%;
+  }
+  
+  .darkBg {
+    background-color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .innerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .flexSpaceCenter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .flexCenter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .animate {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .pointer {
+    cursor: pointer;
+  }
+  
+  .whiteColor {
+    color: #fff;
+  }
+  
+  .font15 {
+    font-size: 15px;
+  }
+  
+  .extraBold {
+    font-weight: 800;
+  }
+  
+  .purpleColor {
+    color: #8a2be2; /* Purple color */
+  }
+  
+  .font13 {
+    font-size: 13px;
+  }
+  
+  .logo-image {
+    width: 90px;
+  }
+  
+  .scroll-arrow {
+    margin-top: 10px;
+  }
+  
+  
+  

@@ -1,0 +1,88 @@
+
+.wrapper {
+    width: 100%;
+  }
+  
+  .lightBg {
+    background-color: #f5f5f5;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .HeaderInfo {
+    padding: 70px 0 30px 0;
+    text-align: center;
+  }
+  
+  form {
+    padding: 30px 0;
+  }
+  
+  form label {
+    display: block;
+    font-size: 13px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #707070;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  input[type="submit"] {
+    border: 1px solid #e52f8a;
+    background-color: #e52f8a;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #580cd2;
+    border: 1px solid #7620ff;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .form-column {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .img-column {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .ContactImgBox {
+    max-width: 400px;
+  }
+  
+  .ContactImgBox img {
+    border-radius: 6px;
+  }
+
+  
+  

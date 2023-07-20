@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+  
+  }
+  
+  .iconStyle {
+    @media (max-width: 860px) {
+      margin: 0 auto;
+    }
+  }
+  
+  .titleStyle {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 40px 0;
+    @media (max-width: 860px) {
+      padding: 20px 0;
+    }
+  }
+  
+  .subtitleStyle {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  
+  

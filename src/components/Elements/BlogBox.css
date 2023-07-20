@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100%;
+    text-align: left;
+    padding: 20px 30px;
+    margin-top: 30px;
+  }
+  
+  .wrapperBtn {
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+
+  

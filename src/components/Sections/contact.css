@@ -1,0 +1,76 @@
+/* style.css */
+
+/* Add general styling for the Contact component */
+.wrapper {
+    width: 100%;
+  }
+  
+  .lightBg {
+    /* Add your styles for the light background */
+  }
+  
+  .container {
+    /* Add your styles for the container */
+  }
+  
+  .HeaderInfo {
+    padding: 70px 0 30px 0;
+    text-align: center;
+  }
+  
+  form {
+    padding: 70px 0 30px 0;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    background-color: transparent;
+    border: 0px;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 1px solid #707070;
+    height: 30px;
+    margin-bottom: 30px;
+  }
+  
+  textarea {
+    min-height: 100px;
+  }
+  
+  input[type="submit"] {
+    border: 1px solid #e52f8a;
+    background-color: #e52f8a;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #580cd2;
+    border: 1px solid #7620ff;
+    color: #fff;
+  }
+  
+
+  .img-column {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; /* Align the image vertically in the column */
+  }
+  
+  .ContactImgBox {
+    max-width: 100%; /* Set the maximum width to fill the column */
+    text-align: right; /* Align the image to the right */
+  }
+  
+  .ContactImgBox img {
+    width: 100%; /* Make the image fill its container */
+    max-width: 400px; /* Limit the maximum width of the image */
+    height: auto; /* Maintain the image's aspect ratio */
+    border-radius: 6px;
+  }
+  
