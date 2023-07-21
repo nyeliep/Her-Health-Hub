@@ -1,61 +1,111 @@
-
-  .HeaderInfo {
-    padding: 70px 0 30px 0;
-    text-align: center;
-  }
-  
-  form {
-    padding: 70px 0 30px 0;
-  }
-  
-  input,
-  textarea {
-    width: 100%;
-    background-color: transparent;
-    border: 0px;
-    outline: none;
-    box-shadow: none;
-    border-bottom: 1px solid #707070;
-    height: 30px;
-    margin-bottom: 30px;
-  }
-  
-  textarea {
-    min-height: 100px;
-  }
-  
-  input[type="submit"] {
-    border: 1px solid #e52f8a;
-    background-color: #e52f8a;
-    width: 100%;
-    padding: 15px;
-    outline: none;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  input[type="submit"]:hover {
-    background-color: #580cd2;
-    border: 1px solid #7620ff;
-    color: #fff;
-  }
-  
-
-  .img-column {
-    flex-basis: 50%;
+.contain{
     display: flex;
-    justify-content: flex-end;
-    align-items: center; /* Align the image vertically in the column */
+    align-items: center;
+    justify-content: center;
+}
+.contactImg{
+  width: 45vw;
+  height: 8vh;
+}
+.contactImg img{
+  float: left;
+}
+.contact-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.contact .title{
+    font-size: 12px;
+}
+  .contact .contact-content .column{
+    width: calc(50% - 30px);
   }
-  
-  .ContactImgBox {
-    max-width: 100%; /* Set the maximum width to fill the column */
-    text-align: right; /* Align the image to the right */
+  .contact .contact-content .text{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
   }
-  
-  .ContactImgBox img {
-    width: 100vw;
-    height: 20vh;
-    height: auto; 
+  .contact .contact-content .left p{
+    text-align: justify;
+  }
+  .contact .contact-content .left .icons{
+    margin: 10px 0;
+  }
+  .contact .contact-content .row{
+    display: flex;
+    height: 65px;
+    align-items: center;
+  }
+  .contact .contact-content .row .info{
+    margin-left: 30px;
+  }
+  .contact .contact-content .row i{
+    font-size: 25px;
+    color: crimson;
+  }
+  .contact .contact-content .info .head{
+    font-weight: 500;
+  }
+  .contact .contact-content .info .sub-title{
+    color: #333;
+  }
+  .contact .right form .fields{
+    display: flex;
+  }
+  .contact .right form .field,
+  .contact .right form .fields .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+  }
+  .contact .right form .name{
+    margin-right: 10px;
+  }
+  .contact .right form .field input,
+  .contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid lightgrey;
     border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+  }
+  .contact .right form .field input:focus,
+  .contact .right form .textarea textarea:focus{
+    border-color: #b3b3b3;
+  }
+  .contact .right form .textarea textarea{
+  padding-top: 10px;
+  resize: none;
+  }
+  .contact .right form .button-area{
+  display: flex;
+  align-items: center;
+  }
+  .right form .button-area button{
+  color: #fff;
+  display: block;
+  width: 160px!important;
+  height: 45px;
+  outline: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  background: crimson;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+  }
+  .right form .button-area button:hover{
+  color: crimson;
+  background: none;
   }
