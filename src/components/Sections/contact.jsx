@@ -9,7 +9,7 @@ function Contact() {
   const [message, setMessage] = useState("");
 
   function sendMail() {
-    // Replace 'YOUR_API_ENDPOINT' with the actual endpoint where you want to send the form data.
+    
     const apiEndpoint = "YOUR_API_ENDPOINT";
 
     fetch(apiEndpoint, {
@@ -116,10 +116,10 @@ function Contact() {
 
    
   </div>
+  </div>
 </div>
-        </div>
-      </div>
-    </div>
+</div>
+ </div>
   );
 }
 

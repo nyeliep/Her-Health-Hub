@@ -1,18 +1,4 @@
-/* style.css */
 
-/* Add general styling for the Contact component */
-.wrapper {
-    width: 100%;
-  }
-  
-  .lightBg {
-    /* Add your styles for the light background */
-  }
-  
-  .container {
-    /* Add your styles for the container */
-  }
-  
   .HeaderInfo {
     padding: 70px 0 30px 0;
     text-align: center;
@@ -68,9 +54,8 @@
   }
   
   .ContactImgBox img {
-    width: 100%; /* Make the image fill its container */
-    max-width: 400px; /* Limit the maximum width of the image */
-    height: auto; /* Maintain the image's aspect ratio */
+    width: 100vw;
+    height: 20vh;
+    height: auto; 
     border-radius: 6px;
   }
-  

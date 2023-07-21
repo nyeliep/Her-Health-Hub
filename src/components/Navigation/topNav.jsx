@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Link } from "react-scroll";
-import { Link as Anc } from "react-router-dom";
+import { Link as ScrollLink } from "react-scroll"; // Rename the import to "ScrollLink"
+import { Link as RouterLink } from "react-router-dom"; // Rename the import to "RouterLink"
 import Sidebar from "./sidebar";
 import Backdrop from "../Elements/Backdrop";
 import HamburgerMenu from "../../assets/svg/BurgerIcon";
@@ -34,11 +34,21 @@ export default function TopNavbar() {
             margin: "0 250px",
           }}
         >
-          <Anc className="pointer flexNullCenter" smooth={true} to={"/"}>
-            <h1 style={{ marginLeft: "3px", fontSize: "20px", fontWeight: "bold" }}>
+          <RouterLink
+            className="pointer flexNullCenter"
+            smooth={true}
+            to={"/"}
+          >
+            <h1
+              style={{
+                marginLeft: "3px",
+                fontSize: "20px",
+                fontWeight: "bold",
+              }}
+            >
               Her<span style={{ color: "#ff6b6b" }}>Health</span>Hub
             </h1>
-          </Anc>
+          </RouterLink>
           <button
             style={{
               outline: "none",
@@ -53,13 +63,30 @@ export default function TopNavbar() {
             <HamburgerMenu />
           </button>
           <ul style={{ display: "flex" }}>
-            <li style={{ display: "flex", listStyle: "none", margin: 0, padding: 0 }}>
-              <Anc style={{ padding: "10px 15px", color: "black" }} to="/">
+            <li
+              style={{
+                display: "flex",
+                listStyle: "none",
+                margin: 0,
+                padding: 0,
+              }}
+            >
+              <RouterLink
+                style={{ padding: "10px 15px", color: "black" }}
+                to="/"
+              >
                 Home
-              </Anc>
+              </RouterLink>
             </li>
-            <li style={{ display: "flex", listStyle: "none", margin: 0, padding: 0 }}>
-              <Link
+            <li
+              style={{
+                display: "flex",
+                listStyle: "none",
+                margin: 0,
+                padding: 0,
+              }}
+            >
+              <ScrollLink
                 activeclassName="active"
                 style={{ padding: "10px 15px", color: "black" }}
                 to="projects"
@@ -68,20 +95,20 @@ export default function TopNavbar() {
                 offset={-80}
               >
                 Services
-              </Link>
+              </ScrollLink>
             </li>
             <li style={{ display: "flex", listStyle: "none", margin: 0, padding: 0 }}>
-              <Anc style={{ padding: "10px 15px", color: "black" }} to="/track">
+              <RouterLink style={{ padding: "10px 15px", color: "black" }} to="/track">
                 Trackers
-              </Anc>
+              </RouterLink>
             </li>
             <li style={{ display: "flex", listStyle: "none", margin: 0, padding: 0 }}>
-              <Anc style={{ padding: "10px 15px", color: "black" }} to="/blog">
+              <RouterLink style={{ padding: "10px 15px", color: "black" }} to="/blog">
                 Blogs
-              </Anc>
+              </RouterLink>
             </li>
             <li style={{ display: "flex", listStyle: "none", margin: 0, padding: 0 }}>
-              <Link
+              <ScrollLink
                 activeclassName="active"
                 style={{ padding: "10px 15px", color: "black" }}
                 to="contact"
@@ -90,18 +117,21 @@ export default function TopNavbar() {
                 offset={-80}
               >
                 Contact
-              </Link>
+              </ScrollLink>
             </li>
           </ul>
+
           <ul style={{ display: "flex", color: "#fff" }}>
-            <li style={{ listStyle: "none", color: "#fff", margin: 0, padding: 0 }}>
-              <Link
+            <li style={{ listStyle: "none", color: "#fff", margin: 0 }}>
+              <RouterLink
                 to="/login"
                 style={{
                   padding: "10px 30px 10px 0",
                   color: "white",
+                  textAlign: "center",
                   textDecoration: "none",
                   backgroundColor: "#ff6b6b",
+                  margin: "10px",
                   borderRadius: "4px",
                   fontWeight: 600,
                   cursor: "pointer",
@@ -109,10 +139,10 @@ export default function TopNavbar() {
                 }}
               >
                 Log in
-              </Link>
+              </RouterLink>
             </li>
             <li style={{ listStyle: "none", color: "#fff", margin: 0, padding: 0 }}>
-              <Link
+              <RouterLink
                 to="/signup"
                 style={{
                   padding: "10px 30px 10px 0",
@@ -126,11 +156,17 @@ export default function TopNavbar() {
                 }}
               >
                 Sign Up
-              </Link>
+              </RouterLink>
             </li>
           </ul>
         </div>
       </nav>
+      {/* Rest of the content */}
     </>
   );
 }
+
+
+
+
+

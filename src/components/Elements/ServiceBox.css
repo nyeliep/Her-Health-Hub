@@ -4,6 +4,7 @@
   }
   
   .iconStyle {
+    text-align: center;
     @media (max-width: 860px) {
       margin: 0 auto;
     }
@@ -21,7 +22,7 @@
   
   .subtitleStyle {
     width: 100%;
-    max-width: 300px;
+    max-width: 350px;
     margin: 0 auto;
   }
   

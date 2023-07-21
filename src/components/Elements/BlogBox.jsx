@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import './BlogBox'
 
-export default function BlogBox({ tag, title, text, action, author, id }) {
+export default function BlogBox({ tag, title, text, author, id }) {
   const navigate = useNavigate();
   return (
     <button

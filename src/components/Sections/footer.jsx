@@ -10,12 +10,11 @@ export default function Footer() {
   }
 
   return (
-    <div className="wrapper">
+    
       <div className="darkBg">
         <div className="container">
           <div className="innerWrapper flexSpaceCenter" style={{ padding: "30px 0" }}>
             <ScrollLink className="flexCenter animate pointer" to="home" smooth={true} offset={-80}>
-              {/* <img src="https://user-images.githubusercontent.com/86917304/210371198-dc840422-935e-4712-9cf8-f6b6bbf28792.png" width={90} alt="logo" /> */}
               <h1 className="font15 extraBold whiteColor" style={{ marginLeft: "15px", fontSize: "20px" }}>
                 Her<span style={{ color: "#ff6b6b" }}>Health</span>Hub
               </h1>
@@ -30,6 +29,6 @@ export default function Footer() {
           </div>
         </div>
       </div>
-    </div>
+  
   );
 }

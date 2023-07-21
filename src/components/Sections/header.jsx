@@ -5,8 +5,8 @@ import './header.css'
 
 export default function Header() {
   return (
-    <div id="home" className="container">
-      <div className="header-container">
+    <div id="home" className="container" >
+      <div className="header-container" style={{ marginTop: "260px" }}>
         <div className="content-container">
           <div className="text-container">
             <h1 className="title">We Care, we nurture</h1>
@@ -30,7 +30,7 @@ export default function Header() {
         <div className="left-column">
           <img
             className="radius8"
-            src={process.env.PUBLIC_URL + "/media/Women day-bro.png"} // Replace with the path to your video file
+            src={process.env.PUBLIC_URL + "/media/Women day-bro.png"} 
             alt="Women Day"
           />
         </div>
