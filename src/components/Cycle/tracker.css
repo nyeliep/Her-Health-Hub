@@ -1,0 +1,111 @@
+/* cycle.css */
+.tracker-box {
+    padding: 48px 0;
+    background-color: #f0f0f0;
+  }
+  
+  .container-md {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  
+  .container-lg {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+  
+  .grid-item {
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 24px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .box-my {
+    text-align: center;
+  }
+  
+  .title {
+    color: #9867c5;
+    font-size: 28px;
+    margin-bottom: 16px;
+  }
+  
+  .body-text {
+    font-size: 16px;
+    color: #000;
+    line-height: 1.6;
+  }
+  
+
+
+
+  /* cycle2.css */
+
+  .tracker-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #E8DEFF;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  
+  .tracker-item {
+    margin-bottom: 20px;
+  }
+  
+  .tracker-item h6 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .tracker-item input[type="date"] {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .tracker-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tracker-buttons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .days-count {
+    font-size: 24px;
+    margin: 0 10px;
+  }
+  
+  .track-button {
+    background-color: #9867C5;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .track-button:hover {
+    background-color: #805EA3;
+  }
+  
+
+  

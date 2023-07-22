@@ -172,13 +172,13 @@ const Dashboard = ()=>{
                                     <span className="badge bg-soft-primary text-primary rounded-pill d-line-flex align-items-center ms-auto">{size}</span>
                                 </Link>
                             </li>
-                            {/* <li className="nav-item">
+                            <li className="nav-item">
                                 <Link className="nav-link"
                                 to={"/track"}>
                                     <i className="bi bi-bookmarks"></i>
                                     Period Tracker
                                 </Link>
-                            </li> */}
+                            </li>
                             {/* <li className="nav-item">
                                 <Link className="nav-link"
                                 to={"/nearclinic"}>

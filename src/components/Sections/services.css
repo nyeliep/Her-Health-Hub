@@ -1,11 +1,7 @@
-/* services.css */
 
-/* Wrapper */
 .wrapper {
   background-color: #f9f9f9;
 }
-
-/* Header */
 .HeaderInfo {
   text-align: center;
 }
@@ -15,7 +11,6 @@
   font-weight: 800;
 }
 
-/* Service Boxes */
 .ServiceBoxRow {
   display: flex;
   flex-wrap: wrap;
@@ -29,26 +24,22 @@
   max-width: 300px;
   text-align: center;
 }
-
-/* Service Box Icon */
 .ServiceBox .icon {
   font-size: 48px;
   margin-bottom: 15px;
 }
 
-/* Service Box Title */
 .ServiceBox .title {
   font-size: 24px;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
-/* Service Box Subtitle */
+
 .ServiceBox .subtitle {
   font-size: 14px;
 }
 
-/* Advertising Section */
 .Advertising {
   display: flex;
   align-items: center;
@@ -95,7 +86,6 @@
   max-width: 100%;
 }
 
-/* Buttons */
 .Button {
   padding: 10px 20px;
   border-radius: 5px;

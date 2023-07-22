@@ -2,9 +2,7 @@ import React, { useEffect, useState } from "react";
 import { addDoc, collection } from "firebase/firestore";
 import { auth, db } from "../../firebase";
 import { Toaster, toast } from "react-hot-toast";
-import TopNavbar from "../Navigation/topNav";
-import Footer from "../Sections/Footer";
-import "./user.css";
+import "./blogform.css";
 import { onAuthStateChanged } from "firebase/auth";
 import { Link, useNavigate } from "react-router-dom";
 

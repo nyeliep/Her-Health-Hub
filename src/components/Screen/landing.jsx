@@ -14,8 +14,9 @@ function Landing (){
         <>
         <TopNavbar />
         <Header />
-        <Services />
         <Projects />
+        <Services />
+      
         <Blog />
         <Contact />
         <Footer />
