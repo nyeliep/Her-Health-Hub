@@ -14,7 +14,7 @@ function Landing (){
         <>
         <TopNavbar />
         <Header />
-        <Projects />
+        {/* <Projects /> */}
         <Services />
       
         <Blog />

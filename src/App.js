@@ -25,7 +25,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blogform" element={<BlogForm />} />
+          <Route path="/blogform" component={BlogForm} />
           <Route path="/blog/:id" element={<BlogShow />} />
           
         </Routes>
