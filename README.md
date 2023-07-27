@@ -1,3 +1,16 @@
+Menstrual Awareness Website,
+
+Introduction
+Menstrual Awareness Website is a platform dedicated to ending the stigma around menstruation and promoting awareness and education about menstrual health. Inspired by the need to create a positive and open dialogue about menstruation, this website aims to provide valuable information, resources, and support to individuals of all genders.
+
+Why Menstrual Awareness Matters
+
+Menstruation is a natural biological process experienced by a significant portion of the population. However, it has been surrounded by cultural taboos, myths, and misinformation for centuries. This lack of awareness and understanding can lead to shame, embarrassment, and limited access to menstrual products and healthcare. By raising awareness and breaking down the stigma, we can foster an inclusive and supportive environment for everyone experiencing menstruation.
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
