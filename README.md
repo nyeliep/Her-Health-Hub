@@ -1,6 +1,7 @@
 Menstrual Awareness Website,
 
-Introduction
+Introduction.
+
 Menstrual Awareness Website is a platform dedicated to ending the stigma around menstruation and promoting awareness and education about menstrual health. Inspired by the need to create a positive and open dialogue about menstruation, this website aims to provide valuable information, resources, and support to individuals of all genders.
 
 Why Menstrual Awareness Matters
